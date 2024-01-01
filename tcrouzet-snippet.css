@@ -1,0 +1,93 @@
+/* For Solarized theme */
+
+:root {
+    --cyan-rgb: 84, 154, 204; /* titles */
+    --violet-rgb: 84, 154, 204; /*links*/
+    --tx1: #5a6e75 /* texts */  
+}
+
+body {
+	--embed-block-shadow-hover: none;
+	--font-ui-smaller: 13px;
+	--normal-weight: 500;
+    --font-normal: 500;
+	--bold-weight: 700;
+	--link-weight: inherit;
+	--inline-title-margin-bottom: 1rem;
+	--h1-size: 1.125em;
+	--h2-size: 1.125em;
+	--h3-size: 1.125em;
+	--h4-size: 0.90em;
+	--h5-size: 0.85em;
+	--h6-size: 0.85em;
+	--h1-weight: var(--bold-weight);
+	--h2-weight: var(--bold-weight);
+	--h3-weight: var(--bold-weight);
+	--h4-weight: var(--bold-weight);
+	--h5-weight: var(--bold-weight);
+	--h6-weight: var(--bold-weight);
+	--h1-variant: normal;
+	--h2-variant: normal;
+	--h3-variant: normal;
+	--h4-variant: normal;
+	--h5-variant: small-caps;
+	--h6-variant: small-caps;
+	--h1-style: normal;
+	--h2-style: normal;
+	--h3-style: normal;
+	--h4-style: normal;
+	--h5-style: normal;
+	--h6-style: normal;
+	--line-height: calc(1ex / 0.28);
+	--line-height-normal: var(--line-height);
+    --font-adaptive-smaller: var(--font-ui-small);
+
+}
+
+
+/* No Highlight current line */
+.cm-active {
+    background: none;
+}
+
+.is-phone {
+	--metadata-label-font-size: var(--font-adaptive-smaller);
+	--metadata-input-font-size: var(--font-adaptive-smaller)
+}
+
+.theme-dark,
+.theme-light {
+    --link-external-color: var(--violet);
+    --link-external-color-hover: var(--link-external-color);
+    --link-external-decoration: none;
+    --link-external-decoration-hover: none;
+}
+
+.markdown-preview-view p {
+    text-indent: 3rem;
+	text-align: justify;
+	text-justify: inter-word;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.markdown-source-view.mod-cm6 .cm-line {
+    text-indent: 3rem;
+}
+
+.markdown-source-view.mod-cm6 .cm-line br {
+    content: '';
+    display: block;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+/*
+.markdown-source-view.mod-cm6 .cm-header {
+    background-color: aqua;
+}*/
+
+.HyperMD-header{
+    text-indent: 0rem !important;
+}
