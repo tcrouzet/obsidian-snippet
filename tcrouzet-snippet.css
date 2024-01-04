@@ -14,8 +14,8 @@ body {
 	--bold-weight: 700;
 	--link-weight: inherit;
 	--inline-title-margin-bottom: 1rem;
-	--h1-size: 1.125em;
-	--h2-size: 1.125em;
+	--h1-size: 1.5em;
+	--h2-size: 1.3em;
 	--h3-size: 1.125em;
 	--h4-size: 0.90em;
 	--h5-size: 0.85em;
@@ -44,7 +44,6 @@ body {
 
 }
 
-
 /* No Highlight current line */
 .cm-active {
     background: none;
@@ -63,31 +62,7 @@ body {
     --link-external-decoration-hover: none;
 }
 
-.markdown-preview-view p {
-    text-indent: 3rem;
-	text-align: justify;
-	text-justify: inter-word;
-    margin-top: 0;
-    margin-bottom: 0;
-}
-
-
-.markdown-source-view.mod-cm6 .cm-line {
-    text-indent: 3rem;
-}
-
-.markdown-source-view.mod-cm6 .cm-line br {
-    content: '';
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-}
-
-/*
-.markdown-source-view.mod-cm6 .cm-header {
-    background-color: aqua;
-}*/
-
-.HyperMD-header{
-    text-indent: 0rem !important;
+.markdown-source-view.mod-cm6.is-live-preview .cm-line hr {
+    border-color: rgb(var(--cyan-rgb));
+    margin: 1rem 40% 1rem 30%;
 }
